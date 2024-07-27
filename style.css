@@ -63,5 +63,16 @@ img{
     border-radius: 1rem;
     font-size: 2rem;
 }
-
-
+@media (max-width:767px){
+    #msg{
+font-size: 1.2rem;
+padding: 0;
+    }
+    .choices{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+}
